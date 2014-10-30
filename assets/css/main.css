@@ -6,7 +6,6 @@ body {
     color: #555;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
-    background-image: url('assets/img/bg.jpg')
 }
 
 /* Titles */
@@ -15,8 +14,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
     color: #555;
 }
+
 #navigation {
 	display: none;
+}
+
+.button-special:hover {
+	color: white;
 }
 
 /* Paragraph & Typographic */
@@ -84,25 +88,27 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background-color: #f8f8f8;
-	padding: 100px 0px 150px 0px;
+	background-image: url("../img/stardust_@2X.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	padding: 100px 0px 195px 0px;
 }
 
 #headerwrap h1 {
 	margin-top: 30px;
-	color: #F37A42;
-	font-size: 50px;
+	color: white;
+	font-size: 60px;
 }
 
 #headerwrap h2 {
-	color: #555;
+	color: white;
 	font-size: 30px;
 	width: 75%;
 	margin: auto;
 }
 
 #headerwrap h3 {
-	color: #555;
+	color: white;
 	font-size: 30px;
 }
 
@@ -125,7 +131,7 @@ a:after {
 
 #intro {
 	border-top: white solid 5px;
-	padding: 50px 0px;
+	padding: 40px 0px;
 }
 
 #intro p {
@@ -141,8 +147,22 @@ a:after {
 	background-color: white;
 }
 
+.what h3 {
+	color: #555;
+}
+
 .why {
-	background-color: #f8f8f8;
+	background-image: url("../img/stardust_@2X.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+.why h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+
+.why p {
+	color: white;
 }
 
 .who vert-spacing {
@@ -150,7 +170,17 @@ a:after {
 }
 
 .signup-bottom {
-	background-color: #f8f8f8;
+	background-image: url("../img/stardust_@2X.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+.signup-bottom h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+
+.signup-bottom p {
+	color: white;
 }
 
 #footerwrap {
@@ -178,13 +208,14 @@ footer {
 /* Copyright Wrap */
 
 #c {
-	background: white;
+	background-image: url("../img/stardust_@2X.png");
+	background-repeat: repeat;
 	padding-top: 15px;
 	text-align: right;
 }
 
 #c p {
-	color: #555;
+	color: white;
 	text-align: center;
 }
 
