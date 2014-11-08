@@ -3,7 +3,7 @@ body {
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
-    color: #555;
+    color: #5a626d;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
@@ -12,11 +12,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
-    color: #555;
+    color: #5a626d;
 }
 
 #navigation {
 	display: none;
+	background-color: #d7dce3;
 }
 
 .button-special:hover {
@@ -88,9 +89,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background-image: url("../img/stardust_@2X.png");
-	background-repeat: repeat;
-	background-attachment: fixed;
+	background-color: #5a626d;
 	padding: 100px 0px 195px 0px;
 }
 
@@ -148,21 +147,19 @@ a:after {
 }
 
 .what h3 {
-	color: #555;
+	color: #5a626d;
 }
 
 .why {
-	background-image: url("../img/stardust_@2X.png");
-	background-repeat: repeat;
-	background-attachment: fixed;
+	background-color: white;
 }
 
-.why h1, h2, h3, h4, h5, h6 {
-	color: white;
+.why h3 {
+	color: #5a626d;
 }
 
 .why p {
-	color: white;
+	color: #5a626d;
 }
 
 .who vert-spacing {
@@ -170,12 +167,10 @@ a:after {
 }
 
 .signup-bottom {
-	background-image: url("../img/stardust_@2X.png");
-	background-repeat: repeat;
-	background-attachment: fixed;
+	background-color: #5a626d;
 }
 
-.signup-bottom h1, h2, h3, h4, h5, h6 {
+.signup-bottom h2 {
 	color: white;
 }
 
@@ -185,7 +180,7 @@ a:after {
 
 #footerwrap {
 	background-color: white;
-	color: #555;
+	color: #5a626d;
 	padding-top: 40px;
 	padding-bottom: 60px;
 	text-align: left;
@@ -208,8 +203,7 @@ footer {
 /* Copyright Wrap */
 
 #c {
-	background-image: url("../img/stardust_@2X.png");
-	background-repeat: repeat;
+	background-color: #5a626d;
 	padding-top: 15px;
 	text-align: right;
 }
